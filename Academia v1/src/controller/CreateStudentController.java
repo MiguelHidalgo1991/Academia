@@ -24,6 +24,7 @@ public class CreateStudentController extends CreateStudentUI {
 			public void actionPerformed(ActionEvent e) {
 				final JFrame f = new JFrame();
 				txtDateOfBirth.setText(new DatePicker(f).setPickedDate());
+				
 			}
 		});
 		btnCrear.addActionListener(new ActionListener() {
